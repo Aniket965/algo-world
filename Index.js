@@ -5,6 +5,7 @@ exports.sort = {
              InsertionSort.Sort.InsertionSort(a);
   },
         MergeSort : function (array,left,right){
+            right-=1;
             MergeSort.Sort.MergeSort(array,left,right);
         }
       
