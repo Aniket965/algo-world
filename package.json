@@ -1,0 +1,25 @@
+{
+  "name": "algo-world",
+  "version": "1.0.1",
+  "description": "library of many algorithms",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aniket965/Nodealgo.git"
+  },
+  "keywords": [
+    "algorithm",
+    "node",
+    "algo",
+    "world"
+  ],
+  "author": "aniket965",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aniket965/Nodealgo/issues"
+  },
+  "homepage": "https://github.com/Aniket965/Nodealgo#readme"
+}

@@ -1,6 +1,5 @@
-var  a =[2,15,4366,4,123,32,4];
-
-function Merge(array,left,right,middle){
+exports.Sort={
+Merge:function (array,left,right,middle){
     n1 = middle - left +1;
     n2 = right - middle;
    var  L = [];
@@ -43,21 +42,14 @@ function Merge(array,left,right,middle){
 	            j++;
 	            k++;
 	        }
-	    }
-    
-
- 
-    
-
-
-function MergeSort(array,left,right){
+	    },
+ MergeSort:function(array,left,right){
     if(left < right){
         var middle = Math.floor((left +right)/2);
-        MergeSort(array,left,middle);
-        MergeSort(array,middle+1,right);
-        Merge(array,left,right,middle);
+        this.MergeSort(array,left,middle);
+        this.MergeSort(array,middle+1,right);
+        this.Merge(array,left,right,middle);
 
     }
 }
-MergeSort(a,0,a.length-1);
-console.log(a);
+}

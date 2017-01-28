@@ -1,5 +1,5 @@
-var  a =[2,15,4366,4,123,32,4];
-function InsertionSort(a){
+exports.Sort={
+InsertionSort:function(a){
 var i;
 for(var j = 1;j < a.length;j++){
     var key = a[j];
@@ -11,7 +11,4 @@ for(var j = 1;j < a.length;j++){
    }
    a[i+1]=key;
 }
-
-console.log(a);
-}
-InsertionSort(a);
+}}
