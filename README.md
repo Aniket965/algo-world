@@ -29,3 +29,7 @@ MergeSort
 ```javascript
 algoWorld.sort.MergeSort(array,startingIndex,EndingIndex);
 ```
+ShakerSort
+```javascript
+algoWorld.Sort.ShakerSort(array);
+```

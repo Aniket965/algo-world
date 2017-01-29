@@ -1,6 +1,6 @@
 {
   "name": "algo-world",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "library of many algorithms",
   "main": "Index.js",
   "scripts": {
