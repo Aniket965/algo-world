@@ -6,8 +6,9 @@ exports.sort = {
          InsertionSort : function(a){
              InsertionSort.Sort.InsertionSort(a);
   },
-        MergeSort : function (array,left,right){
-            right-=1;
+        MergeSort : function (array){
+            left = 0
+            right= array.length -1;
             MergeSort.Sort.MergeSort(array,left,right);
         },
         HeapSort:function(array){

@@ -27,9 +27,13 @@ algoWorld.sort.InsertionSort(array);
 ```
 MergeSort
 ```javascript
-algoWorld.sort.MergeSort(array,startingIndex,EndingIndex);
+algoWorld.sort.MergeSort(array);
 ```
 ShakerSort
 ```javascript
 algoWorld.Sort.ShakerSort(array);
+```
+HeapSort
+```javascript
+algoWorld.Sort.HeapSort(array);
 ```
