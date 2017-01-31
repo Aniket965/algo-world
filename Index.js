@@ -2,6 +2,7 @@ var MergeSort = require('./src/MergeSort');
 var InsertionSort = require('./src/InsertionSort');
 var HeapSort = require('./src/HeapSort');
 var ShakerSort= require('./src/ShakerSort');
+var PeakFinding = require('./src/PeakFinding');
 exports.sort = {
          InsertionSort : function(a){
              InsertionSort.Sort.InsertionSort(a);
@@ -18,5 +19,12 @@ exports.sort = {
         ShakerSort:function(array){
             ShakerSort.Sort.shakerSort(array);
         }
+       
       
+    }
+    exports.find={
+         PeakFinding1D:function(array){
+            PeakFinding.Find.PeakFinding1D(array);
+        }
+
     }

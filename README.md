@@ -31,9 +31,14 @@ algoWorld.sort.MergeSort(array);
 ```
 ShakerSort
 ```javascript
-algoWorld.Sort.ShakerSort(array);
+algoWorld.sort.ShakerSort(array);
 ```
 HeapSort
 ```javascript
-algoWorld.Sort.HeapSort(array);
+algoWorld.sort.HeapSort(array);
+```
+Peakfinding1D
+```javascript
+algoWorld.find.Peakfinding1D(array);
+// logs the peak with index
 ```
