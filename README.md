@@ -9,8 +9,6 @@ This is an  node package  which enable you to use different algorithms which are
 ```
 npm install algo-world
 ```
-
-
 ## Usage
 
 ```javascript
@@ -41,4 +39,9 @@ Peakfinding1D
 ```javascript
 algoWorld.find.Peakfinding1D(array);
 // logs the peak with index
+```
+BinarySearch
+```javascript
+algoWorld.find.BinarySearch(key,array);
+// logs if found with index
 ```
