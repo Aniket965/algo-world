@@ -4,6 +4,7 @@ var HeapSort = require('./src/HeapSort');
 var ShakerSort= require('./src/ShakerSort');
 var PeakFinding = require('./src/PeakFinding');
 var BinarySearch = require('./src/BinarySearch');
+var QuickSort = require('./src/QuickSort');
 exports.sort = {
          InsertionSort : function(a){
              InsertionSort.Sort.InsertionSort(a);
@@ -19,6 +20,9 @@ exports.sort = {
         },
         ShakerSort:function(array){
             ShakerSort.Sort.shakerSort(array);
+        },
+        QuickSort:function(array){
+            QuickSort.Sort.quickSort(array,0,array.length-1);
         }
        
       

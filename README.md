@@ -45,3 +45,7 @@ BinarySearch
 algoWorld.find.BinarySearch(key,array);
 // logs if found with index
 ```
+QuickSort
+```javascript
+algoWorld.sort.QuickSort(array);
+```
