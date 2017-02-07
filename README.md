@@ -49,3 +49,7 @@ QuickSort
 ```javascript
 algoWorld.sort.QuickSort(array);
 ```
+SelectionSort
+```javascript
+algoWorld.sort.SelectionSort(array);
+```
