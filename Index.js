@@ -5,6 +5,8 @@ var ShakerSort= require('./src/ShakerSort');
 var PeakFinding = require('./src/PeakFinding');
 var BinarySearch = require('./src/BinarySearch');
 var QuickSort = require('./src/QuickSort');
+var SelectionSort = require('./src/SelectionSort');
+
 exports.sort = {
          InsertionSort : function(a){
              InsertionSort.Sort.InsertionSort(a);
@@ -23,9 +25,10 @@ exports.sort = {
         },
         QuickSort:function(array){
             QuickSort.Sort.quickSort(array,0,array.length-1);
+        },
+        SelectionSort:function(array){
+            SelectionSort.Sort.SelectionSort(array);
         }
-       
-      
     }
     exports.find={
          PeakFinding1D:function(array){
