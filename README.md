@@ -1,4 +1,4 @@
-# algo-world
+# algo-world [![Build Status](https://travis-ci.org/Aniket965/algo-world.svg?branch=master)](https://travis-ci.org/Aniket965/algo-world)
 
 This is an  node package  which enable you to use different algorithms which are inbuilt in it
 
