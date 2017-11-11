@@ -4,7 +4,7 @@
   "description": "library of many algorithms",
   "main": "Index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Aniket965/Nodealgo/issues"
   },
-  "homepage": "https://github.com/Aniket965/Nodealgo#readme"
+  "homepage": "https://github.com/Aniket965/Nodealgo#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1"
+  }
 }
